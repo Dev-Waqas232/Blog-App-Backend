@@ -22,7 +22,7 @@ app.listen(PORT, () => {
       'mongodb+srv://devwaqas232:devwaqas232@cluster0.8gerr.mongodb.net/blog'
     )
     .then(() => {
-      console.log('Server is running at Port 6000');
+      console.log(`Server is running at Port ${PORT}`);
     })
     .catch((error) => {
       console.log(error);
